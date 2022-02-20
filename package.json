@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aomini/tailwind-design.git",
+  "author": "aomini daiki <rakesh.shrestha@hazesoft.co>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
